@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=\, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="login.CSS">
+  <title>LOGIN</title>
+</head>
+
+<body>
+
+    <header>
+        <img  class="h-screen w-screen object-cover absolute top-0 left-0 -z-10" src="BGIMG.jpg.jpg" alt="BGIMG" style="height: full;">
+        <div class="font-bold text-3xl text-black my-5 mx-14">UMIYA FLORIST 
+          <nav class="flex justify-end ">
+            <ul class="flex space-x-6 -my-8 font-normal text-gray-300">
+             <li class="px-2">
+               <a href="index.html" class="text-lg text-black hover:font-semibold  ">Home</a>
+             </li>
+             <li class="px-2">
+               <a href="product.html" class="text-lg text-black hover:font-semibold ">Product</a>
+             </li>
+             <li class="px-2">
+               <a href="about.html" class="text-lg text-black hover:font-semibold ">About</a>
+             </li>
+           </ul>
+         </nav>
+        </div>
+      </header>
+    
+    
+      <section class="flex mt-56 justify-center min-screen bg-cover bg-center" style="background-image: url('your-image-url');">
+        <div class="box relative w-full max-w-sm h-full rounded-xl bg-transparent shadow-2xl">
+            <h2 class="text-4xl font-bold text-center mt-6">Login</h2>
+            <form class="px-8 pt-6 pb-8 mb-4">
+                <div class="mb-4">
+                    <div class="input-field relative">
+                      
+                        <input class="w-full py-2 px-3 text-gray-700 bg-stone-300 border border-stone-300 hover:bg-white rounded-md focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent" id="email" type="email" required>
+                        <label class="absolute left-0 top-0 mt-2 ml-3 text-black transition-all duration-300" for="email">Email</label>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <div class="input-field relative">
+                        <input class="w-full py-2 px-3 text-gray-700 bg-stone-300 border border-stone-300 hover:bg-white rounded-md focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent" id="password" type="password" required>
+                        <label class="absolute left-0 top-0 mt-2 ml-3 text-black transition-all duration-300" for="password">Password</label>
+                    </div>
+                </div>
+                <div class="forget flex justify-center">
+                    <label class="inline-flex items-center text-sm text-gray-700">
+                        <input class="form-checkbox" type="checkbox">
+                        <span class="ml-2">Remember me</span>
+                    </label>
+                    <a class="inline-block align-baseline font-semibold text-sm text-black hover:text-gray-500 ml-2" href="#">
+                        Forgot Password?
+                    </a>
+                </div>
+                <button type="submit" class="w-full text-xl mt-4 bg-stone-300 hover:bg-white text-gray-800 font-semibold py-2 px-4 rounded focus:outline-none focus:shadow-outline hover:shadow-2xl shadow-black">
+                    Log In
+                </button>
+            </form>
+            <p class="text-center -mt-8 mb-8">
+                Don't have an account? <a class="text-black hover:text-gray-700 font-semibold" href="#">Register</a>
+            </p>
+        </div>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
